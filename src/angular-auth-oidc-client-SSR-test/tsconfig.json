@@ -9,6 +9,9 @@
     "lib": [ "es6", "dom" ],
     "types": [ "node" ]
   },
+   "files": [
+    "ClientApp/typings.d.ts"
+  ],
   "exclude": [ "bin", "node_modules" ],
   "atom": { "rewriteTsconfig": false }
 }

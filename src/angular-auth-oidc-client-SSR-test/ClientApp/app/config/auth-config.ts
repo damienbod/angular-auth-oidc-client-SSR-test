@@ -1,4 +1,5 @@
-import { OpenIDImplicitFlowConfiguration, OidcSecurityService } from 'angular-auth-oidc-client';
+import { OpenIDImplicitFlowConfiguration } from '../auth/modules/auth.configuration';
+import { OidcSecurityService } from '../auth/services/oidc.security.service';
 import { IStorage } from "./storage-config";
 
 export function configAuth(_oidcSecurityService: OidcSecurityService, _storage: IStorage) {
