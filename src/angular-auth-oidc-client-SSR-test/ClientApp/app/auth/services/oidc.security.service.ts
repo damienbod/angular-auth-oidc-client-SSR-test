@@ -130,10 +130,6 @@ export class OidcSecurityService {
         window.location.href = url;
     }
 
-    setStorage(storage: any) {
-        this.oidcSecurityCommon.storage = storage;
-    }
-
     authorizedCallback() {
         let silentRenew = this.oidcSecurityCommon.retrieve(this.oidcSecurityCommon.storage_silent_renew_running);
         let isRenewProcess = (silentRenew === 'running');
